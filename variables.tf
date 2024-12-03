@@ -56,4 +56,5 @@ variable "vm_securitygroup" {
 variable "vms" {
   description = "Список имён машин"
   type        = list(string)
+  default     = [ "User Host 1", "Admin Host", "User Host 2" ]
 }
